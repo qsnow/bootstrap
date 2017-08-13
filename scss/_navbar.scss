@@ -174,11 +174,9 @@
           flex-wrap: nowrap;
         }
 
-        // scss-lint:disable ImportantRule
         .navbar-collapse {
-          display: flex !important;
+          display: flex !important;  // stylelint-disable-line declaration-no-important
         }
-        // scss-lint:enable ImportantRule
 
         .navbar-toggler {
           display: none;
